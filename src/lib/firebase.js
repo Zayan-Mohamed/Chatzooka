@@ -11,9 +11,10 @@ const firebaseConfig = {
   messagingSenderId: '624543098225',
   appId: '1:624543098225:web:0bc84e75215f9901ffc2d0',
 };
+console.log(import.meta.env.VITE_API_KEY);
 
 const app = initializeApp(firebaseConfig);
 
-export const auth = getAuth();
-export const db = getFirestore();
-export const storage = getStorage();
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
