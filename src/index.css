@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+  font-family:  'Geologica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-image: url(/bg.jpg);
+  background-image: url(./bg.jpg);
   background-size: cover; /* Ensures the image covers the entire viewport */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling */
