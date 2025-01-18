@@ -7,13 +7,18 @@
 }
 
 body {
-  background-image: url(./bg.jpg);
+  background-image: url(/bg.jpg);
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin: 0; /* Removes default margin to avoid scrollbars */
   color: aliceblue;
 }
+
 
 .container {
   width: 90vw;
